@@ -1,0 +1,12 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { background: theme(colors.bg); color: theme(colors.text); height:100%; }
+.btn { @apply rounded-lg px-3 py-2 bg-panel2 border border-border hover:bg-panel; }
+.card { @apply bg-panel border border-border rounded-xl; }
+.toolbar { @apply bg-panel border-b border-border; }
+.sidebar { @apply bg-panel border-l border-border; }
+.badge { @apply inline-flex items-center gap-2 rounded-md px-2 py-1 bg-panel2 border border-border text-xs; }
+.kb { @apply text-xs text-sub; }
